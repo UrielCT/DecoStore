@@ -1,0 +1,91 @@
+:root{
+    --primario: antiquewhite;
+}
+
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+
+/** Globales **/
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.8;
+    color: #000
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.contendor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.2rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+
+
+
+
+
+
+
+
+/* Header */
+
+.header{
+    background-color: var(--primario);
+}
+
+.header__logo{
+    margin: 1rem;
+    width: 14rem;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: var(--primario);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.footer__texto{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+
+.card{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px rgb(190, 190, 190);
+}

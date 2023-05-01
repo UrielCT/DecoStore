@@ -1,0 +1,62 @@
+{
+    "lamparas": [
+      {
+        "nombre": "Lampara 1",
+        "descripcion": "Esta es la descripcion de la lampara",
+        "imagen": "./images/im_1.jpeg",
+        "precio": 10000,
+        "stock": true
+      },
+      {
+        "nombre": "Lampara 2",
+        "descripcion": "Esta es la descripcion de la lampara",
+        "imagen": "./images/im_2.jpeg",
+        "precio": 10000,
+        "stock": true
+      },
+      {
+        "nombre": "Lampara 3",
+        "descripcion": "Esta es la descripcion de la lampara",
+        "imagen": "./images/im_3.jpeg",
+        "precio": 10000,
+        "stock": true
+      },
+      {
+        "nombre": "Lampara 4",
+        "descripcion": "Esta es la descripcion de la lampara",
+        "imagen": "./images/im_4.jpeg",
+        "precio": 10000,
+        "stock": true
+      },
+      {
+        "nombre": "Lampara 5",
+        "descripcion": "Esta es la descripcion de la lampara",
+        "imagen": "./images/im_5.jpeg",
+        "precio": 10000,
+        "stock": true
+      },
+      {
+        "nombre": "Lampara 6",
+        "descripcion": "Esta es la descripcion de la  lampara",
+        "imagen": "./images/im_6.jpeg",
+        "precio": 10000,
+        "stock": true
+      },
+      {
+        "nombre": "Lampara 7",
+        "descripcion": "Esta es la descripcion de la  lampara",
+        "imagen": "./images/im_7.jpeg",
+        "precio": 10000,
+        "stock": true
+      },
+      {
+        "nombre": "Lampara 8",
+        "descripcion": "Esta es la descripcion de la lampara",
+        "imagen": "./images/im_8.jpeg",
+        "precio": 10000,
+        "stock": true
+      }
+      
+      
+    ]
+  }
