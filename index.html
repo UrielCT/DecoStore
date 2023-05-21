@@ -1,32 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Luz Bonita Deco</title>
         <link href="./styles/normalize.css" rel="stylesheet">
         <link href="./styles/style.css" rel="stylesheet">
         <link rel="icon" href="./images/logo.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
 
-        <header class="header">
-            <a href="index.html">
-                <img class="header__logo" src="./images/logo2.png" alt="logo">
-            </a>
-        </header>
+        
+
+        <nav class="navigation">
+            <a class="navigation__enlace" href="#" class="enlace">
+                <img class="navigation__logo" src="./images/logo2.png" alt="logo">
+            </a> 
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+             
+            
+            <ul>
+                <li><a class="active" href="#">Inicio</a></li>
+                <li><a href="#">Carrito</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav> 
+
+
+        
+
+
+        <!-- main -->
 
         <main class="contenedor">
             <h1>Nuestras lámparas</h1>
-            <div id="contenedor" class="grid"></div>
+            <div id="contenedor_lamparas" class="grid"></div>
         </main>
        
         
-
+        <!-- Footer -->
 
         <footer class="footer">
             <p class="footer__texto">Luz Bonita DECO - Todos los derechos Reservados 2023.</p>
         </footer>
+
+
+        <!-- floating action button -->
+
+        <div class="whatsapp">
+            <a href="https://www.whatsapp.com/?lang=es">
+                <img class="whatsapp__logo" src="./images/wap_logo.png" alt="whatsapp">
+            </a>
+        </div>
+
         
     </body>
 
